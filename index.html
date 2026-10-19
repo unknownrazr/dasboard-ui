@@ -1,16 +1,16 @@
 <!doctype html>
-<!-- Dashboard UI — project workspace — © 2026 Hasib (OVERSHOOT). All rights reserved. Licensed, not sold: see LICENSE.md. -->
+<!-- Template Designs — project workspace — © 2026 Hasib (OVERSHOOT). All rights reserved. Licensed, not sold: see LICENSE.md. -->
 <html lang="en">
 <head>
 <meta name="robots" content="noindex, nofollow">
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Dashboard UI — project workspace</title>
-  <meta name="description" content="Dashboard UI is a focused project workspace with dashboards, tasks, calendars, analytics, team management, settings, and help in one place." />
+  <title>Template Designs — Project Workspace</title>
+  <meta name="description" content="Template Designs is a responsive project workspace with dashboards, tasks, calendars, analytics, team management, settings, and help." />
   <meta name="theme-color" content="#e9ebe9" />
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Dashboard UI — plan, prioritize, and finish your projects" />
-  <meta property="og:description" content="A green bento project workspace that behaves like a product: dashboard, kanban, calendar, analytics, team, settings and help." />
+  <meta property="og:title" content="Template Designs — plan, prioritize, and finish your projects" />
+  <meta property="og:description" content="A modern project workspace with dashboard, kanban, calendar, analytics, team, settings and help." />
   <link rel="icon" type="image/png" href="/favicon.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -22,7 +22,7 @@
        If the script fails to load, the failsafe shows the page anyway. */
     (function (d) {
       d.classList.add('js');
-      try { var a = localStorage.getItem('dashboard-ui:accent'); if (a) d.dataset.accent = JSON.parse(a); } catch (e) {}
+      try { var a = localStorage.getItem('template-designs:accent'); if (a) d.dataset.accent = JSON.parse(a); } catch (e) {}
       if (!/[?&]record\b/.test(location.search)) setTimeout(function () { d.classList.add('failsafe'); }, 4000);
     })(document.documentElement);
   </script>
@@ -77,9 +77,9 @@
     <!-- ============ Sidebar (a drawer under 1024px) ============ -->
     <aside class="sidebar" id="sidebar" aria-label="Primary">
       <div class="sidebar__top">
-        <a class="brand" href="#dashboard" aria-label="Dashboard UI — dashboard">
+        <a class="brand" href="#dashboard" aria-label="Template Designs — dashboard">
           <svg class="brand__mark"><use href="#i-logo"/></svg>
-          <span class="brand__name">Dashboard UI</span>
+          <span class="brand__name">Template Designs</span>
         </a>
         <button class="icon-btn sidebar__close" type="button" data-drawer-close aria-label="Close menu">
           <svg><use href="#i-close"/></svg>
@@ -114,7 +114,7 @@
 
       <div class="promo" data-lift>
         <span class="promo__icon"><svg><use href="#i-phone"/></svg></span>
-        <p class="promo__title">Dashboard UI for iOS &amp; Android</p>
+        <p class="promo__title">Template Designs for iOS &amp; Android</p>
         <p class="promo__sub">Your board, in your pocket</p>
         <button class="promo__btn" type="button" data-toast="The mobile app is coming soon">Download</button>
       </div>
@@ -149,7 +149,7 @@
             <span class="avatar avatar--lg" style="--av:#f4c9b4" aria-hidden="true" data-me-initials>NC</span>
             <span class="profile__text">
               <span class="profile__name" data-me-name>Noah Castell</span>
-              <span class="profile__mail" data-me-mail>noah@dashboard-ui.app</span>
+              <span class="profile__mail" data-me-mail>noah@template-designs.app</span>
             </span>
           </a>
         </div>
@@ -497,7 +497,7 @@
           <div class="board__head">
             <div>
               <h1 class="board__title" id="h-settings" tabindex="-1">Settings</h1>
-              <p class="board__sub">Your profile, notifications and how Dashboard UI looks.</p>
+              <p class="board__sub">Your profile, notifications and how Template Designs looks.</p>
             </div>
           </div>
           <div class="settings">
@@ -521,7 +521,7 @@
                 </div>
                 <div class="form-grid">
                   <label class="field"><span>Full name</span><input name="name" required maxlength="40" autocomplete="name" value="Noah Castell" /><em class="field__err" aria-live="polite"></em></label>
-                  <label class="field"><span>Email</span><input name="email" type="email" required autocomplete="email" value="noah@dashboard-ui.app" /><em class="field__err" aria-live="polite"></em></label>
+                  <label class="field"><span>Email</span><input name="email" type="email" required autocomplete="email" value="noah@template-designs.app" /><em class="field__err" aria-live="polite"></em></label>
                   <label class="field"><span>Role</span><input name="role" maxlength="40" value="Project Lead" autocomplete="organization-title" /></label>
                   <label class="field"><span>Time zone</span>
                     <select name="tz"><option>GMT+7 · Jakarta</option><option>GMT+0 · London</option><option>GMT+1 · Lagos</option><option>GMT−5 · New York</option></select>
@@ -545,7 +545,7 @@
                   <li><div><p class="switches__t">Mentions &amp; comments</p><p class="switches__d">Replies and @mentions on tasks you follow.</p></div><button class="switch" type="button" role="switch" aria-checked="true" aria-label="Mentions and comments"><span class="switch__knob"></span></button></li>
                   <li><div><p class="switches__t">Meeting reminders</p><p class="switches__d">Ten minutes before anything on your calendar.</p></div><button class="switch" type="button" role="switch" aria-checked="true" aria-label="Meeting reminders"><span class="switch__knob"></span></button></li>
                   <li><div><p class="switches__t">Weekly digest</p><p class="switches__d">A Monday summary of what shipped and what slipped.</p></div><button class="switch" type="button" role="switch" aria-checked="false" aria-label="Weekly digest"><span class="switch__knob"></span></button></li>
-                  <li><div><p class="switches__t">Product updates</p><p class="switches__d">New features in Dashboard UI, at most once a month.</p></div><button class="switch" type="button" role="switch" aria-checked="false" aria-label="Product updates"><span class="switch__knob"></span></button></li>
+                  <li><div><p class="switches__t">Product updates</p><p class="switches__d">New features in Template Designs, at most once a month.</p></div><button class="switch" type="button" role="switch" aria-checked="false" aria-label="Product updates"><span class="switch__knob"></span></button></li>
                 </ul>
               </div>
 
@@ -619,7 +619,7 @@
               <p class="help__contact-d">Our team answers in under 10 minutes, Monday to Friday.</p>
               <div class="help__contact-row">
                 <button class="btn btn--light magnetic" type="button" data-toast="Chat opens here in the real app">Start a chat</button>
-                <a class="btn btn--outline-light" href="mailto:support@dashboard-ui.app">Email us</a>
+                <a class="btn btn--outline-light" href="mailto:support@template-designs.app">Email us</a>
               </div>
             </section>
           </div>
@@ -690,7 +690,7 @@
 
   <dialog class="dlg dlg--sm" id="dlg-logout" aria-labelledby="dlg-logout-h">
     <form method="dialog" class="dlg__form">
-      <h2 class="dlg__title" id="dlg-logout-h">Sign out of Dashboard UI?</h2>
+      <h2 class="dlg__title" id="dlg-logout-h">Sign out of Template Designs?</h2>
       <p class="dlg__text">Your running timer keeps going and will be here when you come back.</p>
       <div class="dlg__row">
         <button class="btn btn--ghost" type="button" data-cancel>Stay</button>
